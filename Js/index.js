@@ -17,3 +17,8 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+particlesJS.load('particles-js', 'particles.json',
+  function(){
+    console.log('particles.json loaded...')
+  })
