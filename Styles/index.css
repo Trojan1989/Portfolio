@@ -16,6 +16,8 @@
 body {
   background-color: var(--background-color);
   position: relative;
+  padding: 0;
+  margin: 0;
 }
 
 canvas.particles-js-canvas-el {
@@ -106,7 +108,7 @@ canvas.particles-js-canvas-el {
 }
 
 .hero-section .row h1 {
-  font-size: 65px;
+  font-size: 3rem;
   font-weight: 800;
 }
 
@@ -388,6 +390,15 @@ canvas.particles-js-canvas-el {
   color: var(--pink-color);
 }
 
+.contact_section .map-wrapper {
+  margin-top: 38px;
+}
+
+.contact_section .map-wrapper .mapouter {
+  width: 100%;
+  height: 100%;
+}
+
 /* Footer Section */
 .footer-area {
   background: #282a39;
@@ -447,115 +458,6 @@ canvas.particles-js-canvas-el {
   transition: 0.5s;
 }
 
-@media screen and (max-width: 1200px) and (min-width: 993px) {
-  .hero-section .row h1 {
-    font-size: 58px;
-  }
-}
-
-@media screen and (max-width: 993px) and (min-width: 763px) {
-
-   .hero-section .row h1 {
-    font-size: 42px;
-  }
-
-  .hero-section .row h2 {
-    font-size: 15px;
-  }
-
-  .hero-section .row h3 {
-    font-size: 15px;
-  }
-
-  .hero-section .row p {
-    font-size: 11px;
-  }
-
-  .hero-section .row button {
-    font-size: 15px;
-  } */
-
-  /*  About Us Section */
-  .about_section .about_me_right_section #text {
-    font-size: 12px;
-  }
-
-  .about_section #heading {
-    font-size: 28px !important;
-  }
-
-  /* Contact Section */
-  .contact_section .header {
-    font-size: 42px;
-  }
-}
-
-@media screen and (max-width: 762px) and (min-width: 500px) {
-
-  .hero-section {
-    padding-bottom: 100px;
-  }
-
-  .hero-section .row h1 {
-    font-size: 42px;
-    text-align: center;
-  }
-
-  .hero-section .row h2 {
-    font-size: 15px;
-    text-align: center;
-  }
-
-  .hero-section .row h3 {
-    font-size: 15px;
-    text-align: center;
-    margin-bottom: 0px;
-  }
-
-  .hero-section .row h3::after {
-    width: 0px;
-  }
-
-  .hero-section .row p {
-    font-size: 11px;
-    text-align: center;
-  }
-
-  .hero-section .btn_container {
-    justify-content: center;
-    text-align: center;
-  }
-
-  .hero-section .btn_container button {
-    width: 100px;
-    height: 43px;
-    font-size: 15px;
-    text-align: center;
-  }
-
-  .hero-section img {
-    width: 60%;
-    margin-top: 20px;
-  }
-
-  /* Footer Section */
-  .footer-area .links {
-    margin-bottom: 30px;
-  }
-
-  .footer-area .row .column .header {
-    font-size: 17px !important;
-  }
-
-  .portfolio_section .list-group {
-    margin-bottom: 30px;
-  }
-
-  .portfolio_section .list-group .list-group-item {
-    font-size: 13px;
-  }
-}
-
 #myBtn {
   display: none;
   position: fixed;
@@ -575,4 +477,14 @@ canvas.particles-js-canvas-el {
 
 #myBtn:hover {
   background-color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  /* .hero-section .row h1 {
+    font-size: 12px;
+  }
+
+  .about_section #heading {
+    font-size: 12px;
+  } */
 }
